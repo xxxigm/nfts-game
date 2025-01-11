@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "downlevelIteration": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+  },
+  "types": ["node", "jest", "@testing-library/jest-dom"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "cache",
+    "contracts",
+    "scripts",
+    "docs",
+  ],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "src/serviceWorker.js"
+  ]
+}
